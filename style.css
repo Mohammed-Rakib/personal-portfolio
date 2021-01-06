@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 132px;
+}
+li{
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 18px 0;
+}
+li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #564c4c;
+    font-family: arial;
+    font-size: 20px;
+    transition: color .6s;
+}
+li a:hover{
+    color: tomato;
+}
+.about-section{
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-area{
+    flex-basis: 50%;
+}
+.text-area h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+.text-area p{
+    width: 400px;
+    color: #777777;
+    padding: 30px 0;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.text-area a{
+    text-decoration: none;
+    padding: 17px 36px;
+    border-radius: 5%;
+    background: salmon;
+    color: #ffffff;
+    transition: background .5s;
+}
+.text-area a:hover{
+    background: red;
+}
+.image{
+    flex-basis: 50%;
+}
+.image img{
+    width: 564px;
+    margin-top: 70px;
+}
+.about-div{
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-area1{
+    flex-basis: 40%;
+}
+.text-area1 h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+.text-area1 p{
+    width: 400px;
+    color: #777777;
+    padding: 30px 0;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.text-area1 a{
+    text-decoration: none;
+    padding: 17px 36px;
+    border-radius: 5%;
+    background: salmon;
+    color: #ffffff;
+    transition: background .5s;
+}
+.text-area1 a:hover{
+    background: tomato;
+}
+.image1{
+    flex-basis: 50%;
+}
+.image1 img{
+    width: 504px;
+}
+.latest-projects{
+    width: 100%;
+    height: 656px;
+    background: #80808017;
+}
+.latest-projects h1{
+    text-align: center;
+    padding: 80px 0;
+}
+.row{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-4{
+    flex-basis: 31%;
+}
+.col-4 h2{
+    padding: 10px 0;
+    color: #17141391;
+}
+.col-4 P{
+    color: #777777;
+    width: 400px;
+}
+.col-4 img{
+    width: 400px;
+}
+.divition{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 3%;
+    transition: background 1s, color 1s;
+}
+.divition:hover{
+    background: tomato;
+}
+.divition:hover h2{
+    color: white;
+}
+.divition:hover p{
+    color: white;
+}
+.services{
+    width: 100%;
+    height: 656px;
+    background: #80808017;
+}
+.services  h1{
+    text-align: center;
+    padding: 80px 0;
+} 
+.design{
+    border-radius: 50%;
+    width: 200px !important;
+    text-align: center !important;
+    margin-left: 107px;
+}
+.para{
+    width: 300px;
+    margin: auto;
+}
+.contact-section{
+    height: 650px;
+    background: #ffffff;
+}
+.backgroung{
+    width: 1000px;
+    background-image: url("images/Group_33094_1.png");
+    margin:150px auto;
+    height: 250px;
+    background-size: cover;
+    position: relative;
+}
+.backgroung h1{
+    color: #ffffff;
+    padding: 100px 100px;
+    font-size: 40px;
+    width: 400px;
+}
+.backgroung a{
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    background: tomato;
+    float: right;
+    bottom: 100px;
+    border-radius: 5%;
+    right: 50px;
+    position: absolute;
+}
+.logo{
+    width: 700px;
+    margin: auto;
+}
+.logo h3{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #888888;
+}
+.logo  h1{
+    font-size: 40px;
+    text-align: center;
+}
+.images{
+    text-align: center;
+}
+.images img{
+    width: 50px;
+    padding: 30px 20px;
+}
